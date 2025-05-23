@@ -25,7 +25,8 @@ const HeroSection = ({ onRegister, onLogin }) => {
             variants={fadeIn}
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Streamline Your <span className="gradient-text">E-commerce</span> Fulfillment
+              Streamline Your <br />
+              <span className="gradient-text">E-commerce</span> Fulfillment
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8">
               FORVOQ is Angamaly's leading e-commerce fulfillment agency, helping businesses scale with end-to-end logistics solutions.
