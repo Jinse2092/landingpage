@@ -143,8 +143,8 @@ const ContactPage = () => {
                 ))}
                 
                 {/* Placeholder for map if needed in future */}
-                <div className="mt-8 h-64 bg-gray-200 rounded-lg overflow-hidden">
-                    <img src="/forvoqlogo.png" alt="Map showing FORVOQ office location in Angamaly, Kerala" style={{ width: '70%', height: '70%' }} className="w-full h-full object-cover" />
+                <div className="mt-8 h-64 bg-gray-200 rounded-lg overflow-hidden flex items-center justify-center">
+                    <img src="/forvoqlogo.png" alt="Map showing FORVOQ office location in Angamaly, Kerala" style={{ width: '70%', height: '70%', objectFit: 'contain' }} />
                 </div>
               </motion.div>
 
