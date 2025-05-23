@@ -144,7 +144,7 @@ const ContactPage = () => {
                 
                 {/* Placeholder for map if needed in future */}
                 <div className="mt-8 h-32 w-32 rounded-lg flex items-center justify-center mx-auto" style={{ background: 'transparent' }}>
-                    <img src="/forvoqlogo.png" alt="FORVOQ logo" style={{ width: '75%', height: '75%', objectFit: 'contain', background: 'transparent' }} />
+                    <img src="/forvoqlogo.png" alt="FORVOQ logo" style={{ width: '125%', height: '125%', objectFit: 'contain', background: 'transparent' }} />
                 </div>
               </motion.div>
 
