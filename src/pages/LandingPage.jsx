@@ -9,11 +9,11 @@ import ContactSection from '@/components/landing/ContactSection';
 
 const LandingPage = () => {
   const handleLogin = () => {
-    window.location.href = 'https://app.forvoq.com/#/login';
+    window.location.href = 'https://app.app.forvoq.com/#/login';
   };
 
   const handleRegister = () => {
-    window.location.href = 'https://app.forvoq.com/#/register';
+    window.location.href = 'https://app.app.forvoq.com/#/register';
   };
 
   return (
