@@ -81,8 +81,14 @@ const ContactPage = () => {
     {
       icon: <Phone className="h-8 w-8 text-blue-600 mb-3" />,
       title: "Call Us",
-      detail: "+91 7902819040",
-      href: "tel:+917902819040"
+      detail: (
+        <>
+          <a href="tel:+917902819040" className="block hover:text-blue-600 transition-colors">+91 7902819040</a>
+          <a href="tel:+918547171165" className="block hover:text-blue-600 transition-colors">+91 8547171165</a>
+          <a href="tel:+919961212450" className="block hover:text-blue-600 transition-colors">+91 9961212450</a>
+          <a href="tel:+919961212446" className="block hover:text-blue-600 transition-colors">+91 9961212446</a>
+        </>
+      ),
     },
     {
       icon: <MapPin className="h-8 w-8 text-blue-600 mb-3" />,
