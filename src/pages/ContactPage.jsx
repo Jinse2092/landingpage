@@ -144,7 +144,7 @@ const ContactPage = () => {
                 
                 {/* Placeholder for map if needed in future */}
                 <div className="mt-8 h-64 bg-gray-200 rounded-lg overflow-hidden">
-                    <iframe src="https://drive.google.com/file/d/1sYHzWZKM1L3EqrtF__o_33RH5m8YXz0R" title="Map showing FORVOQ office location in Angamaly, Kerala" className="w-full h-full object-cover border-0" />
+                    <img src="/forvoqlogo.png" alt="Map showing FORVOQ office location in Angamaly, Kerala" className="w-full h-full object-cover" />
                 </div>
               </motion.div>
 
