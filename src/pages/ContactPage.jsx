@@ -138,10 +138,10 @@ const ContactPage = () => {
                       ) : (
                         <p className="text-gray-600">{item.detail}</p>
                       )}
-                      {/* Show logo under Our Office, left-aligned and closer */}
+                      {/* Show logo under Our Office, left-aligned and 3x bigger */}
                       {item.title === "Our Office" && (
                         <div className="mt-2 flex items-center">
-                          <img src="/forvoqlogo.png" alt="FORVOQ logo" style={{ width: '90px', height: '90px', objectFit: 'contain', background: 'transparent', marginLeft: 0 }} />
+                          <img src="/forvoqlogo.png" alt="FORVOQ logo" style={{ width: '270px', height: '270px', objectFit: 'contain', background: 'transparent', marginLeft: 0 }} />
                         </div>
                       )}
                     </div>
