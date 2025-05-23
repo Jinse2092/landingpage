@@ -26,7 +26,7 @@ const ContactPage = () => {
   };
 
   const handleRegister = () => {
-    window.location.href = 'https://app.app.forvoq.com/#/register';
+    window.location.href = 'https://app.forvoq.com/#/register';
   };
 
   const handleSubmit = async (e) => {
