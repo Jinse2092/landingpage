@@ -35,6 +35,7 @@ const ContactPage = () => {
     const data = {
       name: form.name.value,
       email: form.email.value,
+      phone: form.phone.value,
       subject: form.subject.value,
       message: form.message.value,
     };
@@ -158,6 +159,10 @@ const ContactPage = () => {
                   <div>
                     <Label htmlFor="email" className="text-gray-700">Email Address</Label>
                     <Input type="email" id="email" name="email" required className="mt-1" placeholder="your.email@example.com"/>
+                  </div>
+                  <div>
+                    <Label htmlFor="phone" className="text-gray-700">Phone Number</Label>
+                    <Input type="tel" id="phone" name="phone" className="mt-1" placeholder="Your phone number (optional)" />
                   </div>
                   <div>
                     <Label htmlFor="subject" className="text-gray-700">Subject</Label>

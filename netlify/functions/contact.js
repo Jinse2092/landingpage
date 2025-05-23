@@ -8,7 +8,7 @@ exports.handler = async function(event) {
     };
   }
 
-  const { name, email, subject, message } = JSON.parse(event.body);
+  const { name, email, subject, message, phone } = JSON.parse(event.body);
 
   // Use environment variables for security
   const user = process.env.GMAIL_USER;
@@ -24,7 +24,7 @@ exports.handler = async function(event) {
       from: user,
       to: user,
       subject: `Contact Form: ${subject}`,
-      text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
+      text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone || 'N/A'}\nMessage: ${message}`,
     });
     return {
       statusCode: 200,
