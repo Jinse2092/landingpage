@@ -138,14 +138,15 @@ const ContactPage = () => {
                       ) : (
                         <p className="text-gray-600">{item.detail}</p>
                       )}
+                      {/* Show logo under Our Office */}
+                      {item.title === "Our Office" && (
+                        <div className="mt-4 flex items-center justify-center">
+                          <img src="/forvoqlogo.png" alt="FORVOQ logo" style={{ width: '120px', height: '120px', objectFit: 'contain', background: 'transparent' }} />
+                        </div>
+                      )}
                     </div>
                   </div>
                 ))}
-                
-                {/* Placeholder for map if needed in future */}
-                <div className="mt-8 h-[40rem] w-[40rem] rounded-lg flex items-center justify-center mx-auto" style={{ background: 'transparent' }}>
-                    <img src="/forvoqlogo.png" alt="FORVOQ logo" style={{ width: '95%', height: '95%', objectFit: 'contain', background: 'transparent' }} />
-                </div>
               </motion.div>
 
               {/* Contact Form */}
