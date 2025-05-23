@@ -12,8 +12,8 @@ const App = () => {
         <Route path="/" element={<LandingPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
-        <Route path="/login" element={<Navigate to="https://forvoq.com/#/login" replace />} />
-        <Route path="/register" element={<Navigate to="https://forvoq.com/#/register" replace />} />
+        <Route path="/login" element={<Navigate to="https://app.forvoq.com/#/login" replace />} />
+        <Route path="/register" element={<Navigate to="https://app.forvoq.com/#/register" replace />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Toaster />

@@ -22,11 +22,11 @@ const ContactPage = () => {
   const { toast } = useToast();
 
   const handleLogin = () => {
-    window.location.href = 'https://forvoq.com/#/login';
+    window.location.href = 'https://app.forvoq.com/#/login';
   };
 
   const handleRegister = () => {
-    window.location.href = 'https://forvoq.com/#/register';
+    window.location.href = 'https://app.forvoq.com/#/register';
   };
 
   const handleSubmit = async (e) => {
