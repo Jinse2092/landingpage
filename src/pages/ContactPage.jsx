@@ -22,7 +22,7 @@ const ContactPage = () => {
   const { toast } = useToast();
 
   const handleLogin = () => {
-    window.location.href = 'https://app.app.forvoq.com/#/login';
+    window.location.href = 'https://app.forvoq.com/#/login';
   };
 
   const handleRegister = () => {
@@ -138,7 +138,7 @@ const ContactPage = () => {
                 
                 {/* Placeholder for map if needed in future */}
                 <div className="mt-8 h-64 bg-gray-200 rounded-lg overflow-hidden">
-                    <img alt="Map showing FORVOQ office location in Angamaly, Kerala" className="w-full h-full object-cover" src="https://drive.google.com/file/d/1sYHzWZKM1L3EqrtF__o_33RH5m8YXz0R/view?usp=sharing" />
+                    <img  alt="Map showing FORVOQ office location in Angamaly, Kerala" className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1687187616853-aa54a4ac8c32" />
                 </div>
               </motion.div>
 
