@@ -162,7 +162,7 @@ const ContactPage = () => {
                   </div>
                   <div>
                     <Label htmlFor="phone" className="text-gray-700">Phone Number</Label>
-                    <Input type="tel" id="phone" name="phone" className="mt-1" placeholder="Your phone number (optional)" />
+                    <Input type="tel" id="phone" name="phone" className="mt-1" placeholder="Your phone number" />
                   </div>
                   <div>
                     <Label htmlFor="subject" className="text-gray-700">Subject</Label>
