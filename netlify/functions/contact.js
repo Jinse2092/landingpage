@@ -10,9 +10,9 @@ exports.handler = async function(event) {
 
   const { name, email, subject, message, phone } = JSON.parse(event.body);
 
-  // Use environment variables for security
-  const user = process.env.GMAIL_USER;
-  const pass = process.env.GMAIL_APP_PASS;
+  // Hardcoded credentials (not recommended for production)
+  const user = 'forvoq@gmail.com';
+  const pass = 'qhwm bayz ofvm zjrh';
 
   const transporter = nodemailer.createTransport({
     service: 'gmail',

@@ -24,7 +24,7 @@ const contactInfoData = [
   },
   {
     title: "Visit Us",
-    details: "Angamaly, Kerala, India",
+    details: "Kerala, INDIA",
     icon: <MapPin className="h-6 w-6" />
   }
 ];

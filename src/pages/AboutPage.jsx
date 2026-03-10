@@ -63,7 +63,7 @@ const AboutPage = () => {
               >
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <p className="text-gray-700 text-lg mb-4">
-                  FORVOQ was founded in Angamaly with a simple mission: to simplify e-commerce fulfillment for businesses of all sizes. We saw the challenges companies faced in managing inventory, processing orders, and delivering exceptional customer experiences, and we knew we could provide a better way.
+                  FORVOQ was founded in INDIA with a simple mission: to simplify e-commerce fulfillment for businesses of all sizes. We saw the challenges companies faced in managing inventory, processing orders, and delivering exceptional customer experiences, and we knew we could provide a better way.
                 </p>
                 <p className="text-gray-700 text-lg">
                   Today, we are proud to be a leading fulfillment agency, leveraging technology and expertise to empower e-commerce businesses to scale efficiently and effectively.
@@ -109,7 +109,7 @@ const AboutPage = () => {
                   <h3 className="text-2xl font-semibold">Our Vision</h3>
                 </div>
                 <p className="text-gray-700 text-lg">
-                  To be the most trusted and technologically advanced e-commerce fulfillment partner in India, recognized for our commitment to excellence and client success.
+                  To be the most trusted and technologically advanced e-commerce fulfillment partner in INDIA, recognized for our commitment to excellence and client success.
                 </p>
               </motion.div>
             </motion.div>

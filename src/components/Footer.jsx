@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-1">
             <span className="text-2xl font-bold text-white mb-4 block">FORVOQ</span>
             <p className="mb-4 text-gray-400">
-              Leading e-commerce fulfillment agency based in Angamaly, helping businesses scale with end-to-end logistics solutions.
+              Leading e-commerce fulfillment agency based in INDIA, helping businesses scale with end-to-end logistics solutions.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -64,12 +64,10 @@ const Footer = () => {
                 <Phone size={16} className="mr-2 text-gray-400 mt-1" />
                 <div className="flex flex-col">
                   <a href="tel:+917902819040" className="text-gray-400 hover:text-white transition-colors">+91 7902819040</a>
-                  <a href="tel:+918547171165" className="text-gray-400 hover:text-white transition-colors">+91 8547171165</a>
-                  <a href="tel:+919961212450" className="text-gray-400 hover:text-white transition-colors">+91 9961212450</a>
                   <a href="tel:+919961212446" className="text-gray-400 hover:text-white transition-colors">+91 9961212446</a>
                 </div>
               </li>
-              <li className="text-gray-400">Angamaly, Kerala, India</li>
+              <li className="text-gray-400">Kerala, INDIA</li>
             </ul>
           </div>
         </div>

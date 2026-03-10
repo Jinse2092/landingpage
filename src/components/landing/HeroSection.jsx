@@ -29,7 +29,7 @@ const HeroSection = ({ onRegister, onLogin }) => {
               <span className="gradient-text">E-commerce</span> Fulfillment
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8">
-              FORVOQ is Angamaly's leading e-commerce fulfillment agency, helping businesses scale with end-to-end logistics solutions.
+              FORVOQ is INDIA's leading e-commerce fulfillment agency, helping businesses scale with end-to-end logistics solutions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 

@@ -84,8 +84,6 @@ const ContactPage = () => {
       detail: (
         <>
           <a href="tel:+917902819040" className="block hover:text-blue-600 transition-colors">+91 7902819040</a>
-          <a href="tel:+918547171165" className="block hover:text-blue-600 transition-colors">+91 8547171165</a>
-          <a href="tel:+919961212450" className="block hover:text-blue-600 transition-colors">+91 9961212450</a>
           <a href="tel:+919961212446" className="block hover:text-blue-600 transition-colors">+91 9961212446</a>
         </>
       ),
@@ -93,7 +91,7 @@ const ContactPage = () => {
     {
       icon: <MapPin className="h-8 w-8 text-blue-600 mb-3" />,
       title: "Our Office",
-      detail: "Angamaly, Kerala, India"
+      detail: "Kerala, INDIA"
     }
   ];
 
@@ -141,7 +139,7 @@ const ContactPage = () => {
                       {/* Show logo under Our Office, left-aligned and 3x bigger */}
                       {item.title === "Our Office" && (
                         <div className="mt-2 flex items-center">
-                          <img src="/forvoqlogo.png" alt="FORVOQ logo" style={{ width: '350px', height: '350px', objectFit: 'contain', background: 'transparent', marginLeft: 0 }} />
+                          <img src="/forvoqlogo.jpg" alt="FORVOQ logo" style={{ width: '350px', height: '350px', objectFit: 'contain', background: 'transparent', marginLeft: 0 }} />
                         </div>
                       )}
                     </div>
